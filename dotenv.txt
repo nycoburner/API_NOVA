@@ -1,2 +1,7 @@
-Criar arquivo .env:
-JWT_SECRET=senha_muit0_forte_2h13u12h3i1uuhia
+JWT_SECRET= senha_muito_forte_123456
+DB_HOST= 127.0.0.1
+DB_PORT= 3006
+DB_USER= root
+DB_PASSWORD= escola
+DB_DATABASE= teste2triDSCBE
+API_PORT = 3000

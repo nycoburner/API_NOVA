@@ -2,19 +2,20 @@
   "name": "api_nova-main",
   "version": "1.0.0",
   "description": "",
+  "license": "ISC",
+  "author": "nycolas",
+  "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "start":"node migration.js && node index.js",
+    "start": "node migration.js && node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  
-  "author": "nycolas",
-  "license": "ISC",
   "dependencies": {
     "bcrypt": "^6.0.0",
     "cors": "^2.8.6",
-    "dotenv": "^18.0.4",
+    "dotenv": "^18.0.10",
     "express": "^5.2.1",
+    "fix": "^0.0.6",
     "jsonwebtoken": "^9.0.3",
     "mysql2": "^3.24.5"
   }
